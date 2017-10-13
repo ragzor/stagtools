@@ -1,0 +1,84 @@
+{
+  "name": "ragzor/stagtools",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://wordpress.org/plugins/stagtools/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/ragzor/stagtools",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "stagtools",
+      "subhead": "StagTools is a powerful plugin to extend functionality to your WordPress themes offering shortcodes, FontAwesome icons and useful widgets.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "stagtools: StagTools is a powerful plugin to extend functionality to your WordPress themes offering shortcodes, FontAwesome icons and useful widgets.",
+          "url": "https://wordpress.org/plugins/stagtools/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ragzor",
+          "repo": "stagtools"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h2>Description</h2>\n<p>StagTools is an open-source WordPress Plugin which brings the power the handy shortcodes and widgets on your site.</p>\n<p>The purpose of StagTools is to keep your content consistent, while you want to change your themes. It could be really pain to update shortcodes everytime you change your theme, that&apos;s when StagTools comes to the rescue.</p>\n<h3>Installation</h3>\n<h5>Uploading in WordPress Dashboard</h5>\n<ol>\n<li>Navigate to the &apos;Add New&apos; in the plugins dashboard  </li>\n<li>Navigate to the &apos;Upload&apos; area  </li>\n<li>Select <code>stagtools.zip</code> from your computer  </li>\n<li>Click &apos;Install Now&apos;  </li>\n<li>Activate the plugin in the Plugin dashboard  </li>\n</ol>\n<h5>Using FTP</h5>\n<ol>\n<li>Download <code>stagtools.zip</code>  </li>\n<li>Extract the <code>stagtools</code> directory to your computer  </li>\n<li>Upload the <code>stagtools</code> directory to the <code>/wp-content/plugins/</code> directory  </li>\n<li>Activate the plugin in the Plugin dashboard    </li>\n</ol>\n<hr>\n<h3>Shortcodes</h3>\n<p>Stagtools includes the following shortcodes:</p>\n<ul>\n<li>Alerts</li>\n<li>Buttons ( optionally, with font icons )</li>\n<li>Columns</li>\n<li>Divider / Horizontal Ruler</li>\n<li>Dropcaps</li>\n<li>Intro Text</li>\n<li>Tabs</li>\n<li>Toggle</li>\n<li>Font Icons by Font Awesome</li>\n<li>Google Maps with 5 predefined styles</li>\n<li>Custom Sidebars Area ( requires <a href=\"https://wordpress.org/plugins/stag-custom-sidebars/\">Stag Custom Sidebars</a> plugin )</li>\n<li>Image with CSS3 filters</li>\n<li>Videos ( supports oEmbeds )</li>\n</ul>\n<p>Shortcodes can easily be inserted via the button include in the editor, check the screenshot:</p>\n<p><img src=\"https://i.cloudup.com/kccxOo7_Xh.png\"></p>\n<p>Apart from above, the plugin also comes with 4 widgets: Twitter, Dribbble, Flickr, and Instagram</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ragzor/stagtools",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ragzor",
+          "text": "ragzor"
+        }
+      ]
+    }
+  ]
+}
